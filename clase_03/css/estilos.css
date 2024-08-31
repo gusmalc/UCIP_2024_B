@@ -1,0 +1,36 @@
+
+*{
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+
+
+/* h1{
+    color: #00f;
+} */
+
+#caja1{
+    width: 300px;
+    height: 50px;
+    background-color: #00f;
+    border: #000 10px solid;
+}
+
+#caja2{
+    width: 300px;
+    height: 50px;
+    background-color: #5fe05a;
+}
+
+.color_rojo{
+    color: #f00;
+}
