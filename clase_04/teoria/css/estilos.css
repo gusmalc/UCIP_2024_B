@@ -1,0 +1,15 @@
+h1,h2,p{
+    color: #62ff00;
+}
+/* h2{
+    color: #f00;
+} */
+
+#caja1>h1,#caja1>h2{
+    color: #f00 !important;
+}
+#caja1 h1{
+    color: #00f;
+}
+
+

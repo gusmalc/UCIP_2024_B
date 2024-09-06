@@ -1,0 +1,34 @@
+#caja1{
+    width: 100%;
+    height: 100px;
+    background: #f00;
+}
+
+#caja2{
+    width: 50%;
+    height: 100px;
+    background: #37ff00;
+}
+
+
+@media (min-width: 992px) {
+    #caja1{
+        width: 50%;
+        background: #0048ff;
+    }
+}  
+
+/* @media (min-width: 576px) {
+    
+}  
+@media (min-width: 768px) {
+    
+}  
+@media (min-width: 992px) {
+    
+}  
+@media (min-width: 1200px) {
+    
+} */
+
+
