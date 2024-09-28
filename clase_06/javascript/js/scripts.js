@@ -4,13 +4,18 @@ let num2 = document.getElementById('num2');
 let resultado = document.getElementById('resultado');
 
 
+
+
+
+
 btn1.addEventListener("click", function(){
     let a = parseInt(num1.value);
     let b = parseInt(num2.value);
     let c = a + b;
+    if(isNaN(c)){
+        c = "Ingresar solo numeros";
+    }
     resultado.innerHTML = "<h1>" + c + "</h1>";
 });
-
-
 
 
