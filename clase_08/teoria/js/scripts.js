@@ -46,7 +46,17 @@ box2.addEventListener("click",(e)=>{
     box1.classList.toggle("bordes");
 })
 
-
+let modo = "claro";
 btn2.addEventListener("click",(e)=>{
-    estilos.href = "css/modo_oscuro.css"
+    
+    if(modo == "claro"){
+        estilos.href = "css/modo_oscuro.css";
+        modo = "oscuro";
+        btn2.innerHTML = "MODO CLARO";
+    }else{
+        estilos.href = "css/estilos.css";
+        modo = "claro";
+        btn2.innerHTML = "MODO OSCURo";
+    }
+    
 })

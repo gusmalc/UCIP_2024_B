@@ -1,0 +1,64 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #222;
+    color: #fff;
+    
+}
+
+#app{
+    display: flex;
+}
+
+#app>div{
+    min-height: 400px;
+    width: 50%;
+}
+
+#sx{
+    background: #ccc;    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+#dx{
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#teclado{
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    gap: 5px;
+}
+#teclado>div{
+    width: 50px;
+    height: 50px;
+    background: #222;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#teclado>div:hover{
+    background: #535050;
+}
+
+#resultado{
+    width: 70%;
+    height: 200px;
+    
+}
+
+#visor{
+    color: #222;
+    font-size: 2rem;
+}
