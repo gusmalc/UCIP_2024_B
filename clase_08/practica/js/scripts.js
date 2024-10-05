@@ -18,6 +18,8 @@ teclado.addEventListener('click', (e)=>{
             alert('para chambon, estas apretando el teclado directamente')
         }
     }
+
+    
     if(texto_codigo.length == 6){
         resultado.style.background = `#${texto_codigo}`;
         texto_codigo = "";
