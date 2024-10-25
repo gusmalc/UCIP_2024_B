@@ -1,0 +1,18 @@
+#top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  20px 0 20px 0;
+}
+#respuesta{
+    display: none;
+    width: 100%;
+}
+
+tbody>tr{
+    cursor: pointer;
+}
+
+#ficha{
+    display: none;
+}
