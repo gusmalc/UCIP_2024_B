@@ -29,6 +29,7 @@ function crea_tabla(us){
         `
     });
     cuerpo.innerHTML = xx;
+    ficha.style.display = "none";
     respuesta.style.display = "block";
 }
 
@@ -38,8 +39,15 @@ function creaficha(id){
     fetch(`https://jsonplaceholder.typicode.com/users/${id}`)
     .then(res => res.json() )
     .then(datos =>{
-        console.log(datos);
-        //crea_tabla(usr);
+        let xx = `
+            <h1>${datos.name}</h1>
+            <p>${datos.phone}</p>
+            <h2>${datos.company.name}</h2>
+        `;
+        ficha.innerHTML = xx;
+        respuesta.style.display = "none";
+        ficha.style.display = "block";
+
     })
 }
 
