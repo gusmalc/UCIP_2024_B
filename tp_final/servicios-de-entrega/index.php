@@ -8,6 +8,8 @@
 </head>
 <body>
 <?php include "../common/menu.php"; ?>  
+<?php include "sections/portada.php"; ?>
+
 
 <h1>Entrgas</h1>
 </body>
