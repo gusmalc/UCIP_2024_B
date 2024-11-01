@@ -9,7 +9,7 @@ enviar.addEventListener('click', (e)=>{
     let n1 = num1.value ;
     let n2 = num2.value ;
 
-    let api_url = "https://api.malcotti.com/suma";
+  let api_url = "https://api.malcotti.com/suma/";
 
 
     let data = new FormData();
@@ -25,3 +25,4 @@ enviar.addEventListener('click', (e)=>{
     .catch(err => { console.log(err.message) });
 
 })
+
