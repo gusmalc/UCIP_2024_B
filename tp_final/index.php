@@ -9,6 +9,11 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="stylesheet" href="<?php echo $site_url . "css/general.css"; ?>">
+<style>
+    .carousel img{
+        width: 100%;
+    }
+</style>
 
 </head>
 <body>
@@ -16,11 +21,7 @@
 
 
 
-    <div class="container">
-        <h1>INICIO</h1>
-        <i style="font-size: 4rem;color: #00f" class="fa-brands fa-facebook"></i>
-        <i style="font-size: 4rem;color: #00f" class="fa-brands fa-instagram"></i>
-    </div>
+   <?php include "inicio/portada.php"; ?>
     
 
 
