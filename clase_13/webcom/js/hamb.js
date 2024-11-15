@@ -77,6 +77,9 @@ class DWS_hamb extends HTMLElement{
    cambia(){
     this.shadowRoot.querySelector('#dp_btn_hamb2>div').classList.toggle("dp-btn-close1");   
    }
+   cierra(){
+    this.shadowRoot.querySelector('#dp_btn_hamb2>div').classList.remove("dp-btn-close1");   
+   }
     
 }
 window.customElements.define("ico-hamb", DWS_hamb);

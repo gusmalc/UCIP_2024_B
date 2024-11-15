@@ -13,6 +13,7 @@
     background: #ccc;
     transform: translateX(310px);
     transition: all 0.5s linear;
+    
 }
 .abrir_menu{
     transform: translateX(0px) !important;
