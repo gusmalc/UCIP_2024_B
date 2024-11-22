@@ -1,0 +1,58 @@
+#pelota{
+    width: 100px;
+    height: 100px;
+    background: #f00;
+    border-radius: 50%;
+    animation-name: pel;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; 
+}
+#pelota2{
+    width: 100px;
+    height: 100px;
+    background: #00f7ff;
+    border-radius: 50%;
+    animation-name: pel2;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; 
+}
+
+/* @keyframes pel{
+    from{
+       transform: translateX(0px);
+    }
+    to{
+        transform: translateX(250px);
+    }    
+} */
+
+@keyframes pel{
+    0%{
+       transform: translateX(0px) scale(0);
+    }
+    50%{
+        background: #ff0;
+    }
+    100%{
+        transform: translateX(250px) scale(2);
+    }    
+}
+
+@keyframes pel2{
+    0%{
+       transform: translateX(0px) translateY(0px);
+    }
+    50%{
+        background: #ff0;
+    }
+    75%{
+        transform: translateY(250px);
+    }
+    100%{
+        transform: translateX(250px);
+    }    
+}

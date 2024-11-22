@@ -1,6 +1,7 @@
 let form_contacto = document.getElementById('form_contacto');
 let btn_enviar = document.getElementById('btn_enviar');
 let suma = document.getElementById('suma');
+let aviso = document.getElementById('aviso');
 
 btn_enviar.addEventListener('click', (e)=>{
     e.preventDefault();
@@ -13,7 +14,9 @@ btn_enviar.addEventListener('click', (e)=>{
         fetch(api_url, { method: "post", body: data })
         .then(res => res.text())
         .then(el => {
-            if(el == "ok")
+            if(el == "ok"){
+                aviso.style.display = "block";
+            }
             //console.log(el);
         })
         .catch(err => { console.log(err.message) });
