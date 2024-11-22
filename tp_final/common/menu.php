@@ -2,7 +2,7 @@
 
 <nav class="navbar navbar-expand-lg bg-dark " data-bs-theme="dark">
   <div class="container">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="<?php echo $site_url; ?>">
 <img style="width: 60px;" src="<?php echo $site_url . "imagenes/logo.svg" ?>" alt="">
 
     </a>
@@ -17,6 +17,9 @@
         </li>
         <li class="nav-item">
           <a class="nav-link" href="<?php echo $site_url . "servicios-de-entrega"; ?>">Entregas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="<?php echo $site_url . "contacto"; ?>">Contacto</a>
         </li>
        
       </ul>
