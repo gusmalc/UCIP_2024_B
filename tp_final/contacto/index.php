@@ -24,7 +24,7 @@
 
 
         <?php 
-        if($enviado == "no"){
+        if($enviado == "si"){
         
         ?>
 
@@ -44,6 +44,9 @@
 
             <div class="col-md-6">
                 <?php include "sections/formulario.php"; ?>
+            </div>
+            <div class="col-md-6">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3144.1626420673824!2d-57.553130525449916!3d-37.99666667193028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584dc02326fc37b%3A0x28354bf2f31d1fc6!2sUCIP%20Uni%C3%B3n%20del%20Comercio%2C%20la%20Industria%20y%20la%20Producci%C3%B3n%20de%20Mar%20del%20Plata!5e0!3m2!1ses-419!2sar!4v1732313159981!5m2!1ses-419!2sar" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
        
