@@ -4,3 +4,11 @@
 .bg-dark{
     background-color: #f00 !important;
 }
+
+#wa{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    z-index: 99999;
+}

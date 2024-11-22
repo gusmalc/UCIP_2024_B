@@ -18,7 +18,7 @@
             justify-content: flex-end;
         }
     </style>
-<link rel="stylesheet" href="<?php echo $site_url . "css/general.css"; ?>">
+<link rel="stylesheet" href="<?php echo $site_url . "css/general.css?a=" . time(); ?>">
 
 </head>
 <body>
